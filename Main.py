@@ -93,3 +93,7 @@ while isMachineOn:
         print(f"Water: {machineWater}ml")
         print(f"Milk: {machineMilk}ml")
         print(f"Coffee: {machineCoffee}g")
+    elif userChoice == "off":
+        isMachineOn = False
+    else:
+        print("Please enter a valid input.")
